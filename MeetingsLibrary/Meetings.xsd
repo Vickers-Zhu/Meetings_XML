@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:bs="http://www.example.org/meetings"
+        targetNamespace="http://www.example.org/meetings"
+        elementFormDefault="qualified">
+  <element name="pastures">
+    <complexType>
+      <sequence>
+        <element name="meetings">
+          <complexType>
+            <sequence>
+              <element name="meeting" type="bs:meeting" minOccurs="2" maxOccurs="unbounded"/>
+            </sequence>
+          </complexType>
+        </element>
+        <element name="pasture" type="bs:pasture" maxOccurs="unbounded"/>
+        <element name="centaur" type="bs:centaur" maxOccurs="unbounded"/>
+        <element name="minotaur" type="bs:minotaur" maxOccurs="1"/>
+      </sequence>
+    </complexType>
+  </element>
+  <complexType name="meeting">
+    <sequence>
+      <element name="participant" type="string" maxOccurs="unbounded"/>
+    </sequence>
+    <attribute name="location" use="required"/>
+  </complexType>
+  <complexType name="pasture">
+    <sequence>
+      <element name="name" type="string" maxOccurs="unbounded"/>
+    </sequence>
+    <attribute name="area" />
+  </complexType>
+  <complexType name="taur">
+    <attribute name="name" type="string" use="required" />
+    <attribute name="age" type="integer" use="optional" />
+    <attribute name="id" type="integer" use="required" />
+  </complexType>
+  <complexType name="centaur">
+    <complexContent>
+      <extension base="bs:taur">
+        <sequence>
+          <element name="beard" minOccurs="0"/>
+          <element name="mustache" minOccurs="0"/>
+          <element name="whiskers" minOccurs="0"/>
+        </sequence>
+      </extension>   
+    </complexContent>   
+  </complexType>
+  <complexType name="minotaur">
+    <complexContent>
+      <extension base="bs:taur">
+        <attribute name="mass" use="optional"/>     
+      </extension>     
+    </complexContent>  
+  </complexType>
+</schema>

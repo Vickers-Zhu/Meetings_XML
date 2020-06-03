@@ -1,0 +1,9 @@
+C:\Users\VickersZhu\source\repos\Meetings\MeetingsLibrary\bin\Debug\netcoreapp3.1\MeetingsLibrary.deps.json
+C:\Users\VickersZhu\source\repos\Meetings\MeetingsLibrary\bin\Debug\netcoreapp3.1\MeetingsLibrary.dll
+C:\Users\VickersZhu\source\repos\Meetings\MeetingsLibrary\bin\Debug\netcoreapp3.1\MeetingsLibrary.pdb
+C:\Users\VickersZhu\source\repos\Meetings\MeetingsLibrary\obj\Debug\netcoreapp3.1\MeetingsLibrary.AssemblyInfoInputs.cache
+C:\Users\VickersZhu\source\repos\Meetings\MeetingsLibrary\obj\Debug\netcoreapp3.1\MeetingsLibrary.AssemblyInfo.cs
+C:\Users\VickersZhu\source\repos\Meetings\MeetingsLibrary\obj\Debug\netcoreapp3.1\MeetingsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\VickersZhu\source\repos\Meetings\MeetingsLibrary\obj\Debug\netcoreapp3.1\MeetingsLibrary.dll
+C:\Users\VickersZhu\source\repos\Meetings\MeetingsLibrary\obj\Debug\netcoreapp3.1\MeetingsLibrary.pdb
+C:\Users\VickersZhu\source\repos\Meetings\MeetingsLibrary\obj\Debug\netcoreapp3.1\MeetingsLibrary.csprojAssemblyReference.cache

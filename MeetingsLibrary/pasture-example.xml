@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pastures xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://www.example.org/meetings"
+          xsi:schemaLocation="http://www.example.org/meetings Meetings.xsd">
+  <meetings>
+    <meeting location="AA">
+      <participant>1</participant>
+      <participant>2</participant>
+    </meeting>
+    <meeting location="XX-YX-ZA">
+      <participant>4</participant>
+      <participant>2</participant>
+    </meeting>
+  </meetings>
+  <pasture area="20.00">
+    <name>XX-YX-ZA</name>
+    <name>XX-YX-ZB</name>
+    <name>AA</name>
+  </pasture>
+  <pasture area="31.03">
+    <name>AA-BB-CC-DD</name>
+  </pasture>
+  <pasture area="31.12">
+    <name>WQ-AZ-XX</name>
+    <name>SS</name>
+    <name>AB-CD-FG-AN-PQ</name>	    
+  </pasture>
+  <centaur name="Sonny" age="23" id="1">
+    <beard/>
+    <mustache/>
+  </centaur>
+  <centaur name="Roger" age="21" id="2">
+    <beard/>
+    <whiskers/>
+  </centaur>
+  <minotaur name="Larry" age="77" id="4" mass="785"/>
+</pastures>

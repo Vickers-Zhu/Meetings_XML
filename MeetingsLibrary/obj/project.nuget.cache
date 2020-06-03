@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0PKdqfokpnwTVAnewyFDUtwbQEBt5S7IAZfDbI3EoEL9cS4abb+zrLXyEy/r7vakO4a82+xK87B5oXBRnwAzdA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\VickersZhu\\source\\repos\\Meetings\\MeetingsLibrary\\MeetingsLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VickersZhu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
